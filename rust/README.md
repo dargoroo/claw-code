@@ -1,13 +1,15 @@
-# Claw Code for Rust
+# Claw Code
 
-Claw Code is a local coding-agent CLI implemented in safe Rust. The `claw` binary supports interactive sessions, one-shot prompts, workspace-aware tools, and local agent workflows from a single workspace.
+Claw Code is a local coding-agent CLI implemented in safe Rust. It is **Claude Code inspired** and developed as a **clean-room implementation**: it aims for a strong local agent experience, but it is **not** a direct port or copy of Claude Code.
+
+The Rust workspace is the current main product surface. The `claw` binary provides interactive sessions, one-shot prompts, workspace-aware tools, local agent workflows, and plugin-capable operation from a single workspace.
 
 ## Current status
 
 - **Version:** `0.1.0`
 - **Release stage:** initial public release, source-build distribution
+- **Primary implementation:** Rust workspace in this repository
 - **Platform focus:** macOS and Linux developer workstations
-- **Rust port status:** core CLI, runtime, tools, plugins, LSP, and support services are all in the Rust workspace
 
 ## Install, build, and run
 
@@ -90,9 +92,9 @@ From the release build:
 - Some live-provider integration coverage is opt-in because it requires external credentials and network access
 - The command surface may continue to evolve during the `0.x` series
 
-## Rust port status
+## Implementation
 
-The Rust workspace is already the primary implementation surface for this CLI. It currently includes these workspace crates:
+The Rust workspace is the active product implementation. It currently includes these crates:
 
 - `claw-cli` — user-facing binary
 - `api` — provider clients and streaming
@@ -109,7 +111,7 @@ The Rust workspace is already the primary implementation surface for this CLI. I
 - Add a repeatable release workflow and longer-lived changelog discipline
 - Expand platform verification beyond the current CI matrix
 - Add more task-focused examples and operator documentation
-- Continue tightening feature coverage and UX polish across the Rust port
+- Continue tightening feature coverage and UX polish across the Rust implementation
 
 ## Release notes
 
