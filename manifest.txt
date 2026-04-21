@@ -1,0 +1,70 @@
+Port root: `/app/src`
+Total Python files: **66**
+
+Top-level Python modules:
+- `query.py` (1 files) — Python port support module
+- `history.py` (1 files) — Python port support module
+- `query_engine.py` (1 files) — port orchestration summary layer
+- `tool_pool.py` (1 files) — Python port support module
+- `commands.py` (1 files) — command backlog metadata
+- `task.py` (1 files) — task-level planning structures
+- `Tool.py` (1 files) — Python port support module
+- `parity_audit.py` (1 files) — Python port support module
+- `cost_tracker.py` (1 files) — Python port support module
+- `costHook.py` (1 files) — Python port support module
+- `projectOnboardingState.py` (1 files) — Python port support module
+- `remote_runtime.py` (1 files) — Python port support module
+- `execution_registry.py` (1 files) — Python port support module
+- `setup.py` (1 files) — Python port support module
+- `ink.py` (1 files) — Python port support module
+- `deferred_init.py` (1 files) — Python port support module
+- `runtime.py` (1 files) — Python port support module
+- `bootstrap_graph.py` (1 files) — Python port support module
+- `replLauncher.py` (1 files) — Python port support module
+- `system_init.py` (1 files) — Python port support module
+- `models.py` (1 files) — shared dataclasses
+- `dialogLaunchers.py` (1 files) — Python port support module
+- `port_manifest.py` (1 files) — workspace manifest generation
+- `__init__.py` (1 files) — package export surface
+- `transcript.py` (1 files) — Python port support module
+- `session_store.py` (1 files) — Python port support module
+- `tools.py` (1 files) — tool backlog metadata
+- `direct_modes.py` (1 files) — Python port support module
+- `tasks.py` (1 files) — Python port support module
+- `command_graph.py` (1 files) — Python port support module
+- `interactiveHelpers.py` (1 files) — Python port support module
+- `permissions.py` (1 files) — Python port support module
+- `prefetch.py` (1 files) — Python port support module
+- `main.py` (1 files) — CLI entrypoint
+- `QueryEngine.py` (1 files) — Python port support module
+- `context.py` (1 files) — Python port support module
+- `components` (1 files) — Python port support module
+- `keybindings` (1 files) — Python port support module
+- `moreright` (1 files) — Python port support module
+- `upstreamproxy` (1 files) — Python port support module
+- `vim` (1 files) — Python port support module
+- `memdir` (1 files) — Python port support module
+- `schemas` (1 files) — Python port support module
+- `cli` (1 files) — Python port support module
+- `types` (1 files) — Python port support module
+- `plugins` (1 files) — Python port support module
+- `entrypoints` (1 files) — Python port support module
+- `utils` (1 files) — Python port support module
+- `server` (1 files) — Python port support module
+- `services` (1 files) — Python port support module
+- `screens` (1 files) — Python port support module
+- `constants` (1 files) — Python port support module
+- `skills` (1 files) — Python port support module
+- `native_ts` (1 files) — Python port support module
+- `coordinator` (1 files) — Python port support module
+- `buddy` (1 files) — Python port support module
+- `hooks` (1 files) — Python port support module
+- `state` (1 files) — Python port support module
+- `bridge` (1 files) — Python port support module
+- `bootstrap` (1 files) — Python port support module
+- `remote` (1 files) — Python port support module
+- `migrations` (1 files) — Python port support module
+- `reference_data` (1 files) — Python port support module
+- `assistant` (1 files) — Python port support module
+- `voice` (1 files) — Python port support module
+- `outputStyles` (1 files) — Python port support module

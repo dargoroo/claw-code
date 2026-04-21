@@ -1,0 +1,32 @@
+query.py	1	Python port support module
+history.py	1	Python port support module
+query_engine.py	1	port orchestration summary layer
+tool_pool.py	1	Python port support module
+commands.py	1	command backlog metadata
+task.py	1	task-level planning structures
+Tool.py	1	Python port support module
+parity_audit.py	1	Python port support module
+cost_tracker.py	1	Python port support module
+costHook.py	1	Python port support module
+projectOnboardingState.py	1	Python port support module
+remote_runtime.py	1	Python port support module
+execution_registry.py	1	Python port support module
+setup.py	1	Python port support module
+ink.py	1	Python port support module
+deferred_init.py	1	Python port support module
+runtime.py	1	Python port support module
+bootstrap_graph.py	1	Python port support module
+replLauncher.py	1	Python port support module
+system_init.py	1	Python port support module
+models.py	1	shared dataclasses
+dialogLaunchers.py	1	Python port support module
+port_manifest.py	1	workspace manifest generation
+__init__.py	1	package export surface
+transcript.py	1	Python port support module
+session_store.py	1	Python port support module
+tools.py	1	tool backlog metadata
+direct_modes.py	1	Python port support module
+tasks.py	1	Python port support module
+command_graph.py	1	Python port support module
+interactiveHelpers.py	1	Python port support module
+permissions.py	1	Python port support module
